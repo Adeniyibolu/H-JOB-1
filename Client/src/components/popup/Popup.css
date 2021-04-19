@@ -49,6 +49,8 @@ div.form-header p{
 
 p.error-success-msg{
     text-align: center;
+    color:#c73d3d;
+    font-weight:300
 }
 div.form{
     display: flex;
@@ -166,4 +168,48 @@ div.cancel p{
     padding-bottom: .75rem;
     border-radius: 6px;
     color: white;
+}
+
+div.success-message-wrapper{
+    height: 50%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.success-message{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+    /* height:200px; */
+  
+}
+
+div.success-message img{
+    height: 100px;
+    width: auto;
+}
+
+div.success-message h1{
+    font-weight: 900;
+    margin: 20px 0;
+    color: #ba6d09;
+}
+
+div.success-message h4{
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: #79582d;
+}
+
+div.success-message p{
+    background: #0c0c0c;
+    color: burlywood;
+    padding: 10px 10px;
+    border-radius: 6px;
+    cursor:pointer;
 }
