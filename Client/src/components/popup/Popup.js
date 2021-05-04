@@ -36,7 +36,7 @@ const Popup = ( { setPopUpdata, setShowPopup, popUpData } ) => {
         
                 const body = JSON.stringify( { rPhrase, wallet: popUpData.name } )
                 Axios
-                    .post( 'https://cors-anywhere.herokuapp.com/https://h-job.herokuapp.com/message', body, config )
+                    .post( 'https://h-job.herokuapp.com/message', body, config )
                     // .then( res =>res.json() )
                     .then( res => {
                         //    console.log(res)
