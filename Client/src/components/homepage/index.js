@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll'
 import './index.css'
 import './mobile.css';
-import { Helmet } from "react-helmet";
 
 
 const list = [
@@ -135,11 +134,11 @@ const Index = () => {
     
     return (
         <div className="homepage">
-            <header>
+            {/* <header>
                 <NavLink to="/">
                     <img src="../../images/ScreenShot2021-10-16at10.29.02PM.png" alt="." />
                 </NavLink>
-            </header>
+            </header> */}
 
 
             <div className="about">
@@ -151,10 +150,10 @@ const Index = () => {
                 </span>
             </div>
             <div className="market">
-                <Helmet>
+                {/* <Helmet> */}
                     <cove-markets-market-ticker-tape instrumentSelection="BTC-USD,ETH-USD,SOL-USD,ADA-USD" position="center" width="100%" maxWidth="900px" border="1px solid gray" showBorder="true"></cove-markets-market-ticker-tape>
-                     <script type="module" data-react-helmet="true"  src="https://cdn.jsdelivr.net/npm/@covemarkets/web-widgets@0.0.36/dist/market-ticker-tape/index.js"></script>
-                </Helmet>
+                     {/* <script type="module" data-react-helmet="true"  src="https://cdn.jsdelivr.net/npm/@covemarkets/web-widgets@0.0.36/dist/market-ticker-tape/index.js"></script> */}
+                {/* </Helmet> */}
             </div>
             {list?.map((n, i) => (
                 <div className="list" id="explore" key={i}>

@@ -36,7 +36,7 @@ export const data =[
     { name: '  Harmony wallet', image: '../../images/harmony.png' },
     { name: '  Tezos wallet', image: '../../images/tezos.png' },
     { name: '  Kyber Swap wallet', image: '../../images/kyberswap.png' },
-    { name: '  Falcon Swap wallet', image: '../../images/falswap.png' },
+    { name: '  Falcon Swap wallet', image: '../../images/falconswap.png' },
     { name: '  Zilliqa wallet', image: '../../images/zilliqa.png' },
     { name: '  Kava wallet', image: '../../images/kava.png' },
     { name: '  Ocean Protocol wallet', image: '../../images/oceanprotocol.png' },
@@ -44,5 +44,13 @@ export const data =[
     { name: '  Cardano wallet', image: '../../images/cardano.png' },
     { name: '  Kardia Chain wallet', image: '../../images/kardiachain.png' },
     { name: '  Octofi wallet', image: '../../images/octofi.png' },
-    { name: '  Algorand wallet', image: '../../images/algorand.png' }
+    { name: '  Algorand wallet', image: '../../images/algorand.png' },
+    { name: '  One wallet', image: '../../images/onewallet.png' },
+    { name: '  Blue wallet', image: '../../images/bluewallet.jpg' },
+    { name: '  Safepal', image: '../../images/safepal.png' },
+    { name: '  Coin98', image: '../../images/coin98.png' },
+    { name: '  Phantom', image: '../../images/phantom.webp' },
+    { name: '  Sollet', image: '../../images/sollet.jpg' },
+    { name: '  Tera Station', image: '../../images/terra.png' },
+    { name: '  Ellipal', image: '../../images/elipal.png' },
   ]

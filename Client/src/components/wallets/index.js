@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-import { Link } from 'react-router-dom';
 import './index.css'
 import './mobile.css'
 import Popup from '../popup/Popup';
@@ -14,11 +13,11 @@ const Index = () => {
     }
     return (
         <div className="wallets">
-            <header>
+            {/* <header>
                 <Link to="/">
                     <img src="../../images/ScreenShot2021-10-16at10.29.02PM.png" alt="." />
                 </Link>
-            </header>
+            </header> */}
 
             <div className="banner">
                 <h1>SELECT WALLET TYPE</h1>
