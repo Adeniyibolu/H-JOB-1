@@ -43,7 +43,7 @@ const Index = () => {
                 <div className="contact-us">
                     <div className="left">
                         <h1>Contact Us</h1>
-                        <p>Send all inquiries to Support@blockchain.com</p>
+                        {/* <p>Send all inquiries to Support@blockchain.com</p> */}
                     </div>
 
                     <div className="right">
@@ -55,7 +55,7 @@ const Index = () => {
                 </div>
 
                 <div className="bottom">
-                    <p>Copyright: Blockchain {new Date().getFullYear()}.</p>
+                <p>All rights reserved {new Date().getFullYear()}.</p>
 
                     <i className="fa  fa-chevron-up"></i>
                 </div>
