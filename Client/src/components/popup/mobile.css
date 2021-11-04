@@ -1,7 +1,23 @@
 @media screen and (max-width: 1024px){
     section.popup>div{
-        width:45%;
+        width:50%;
+        height: auto;
     
+    }
+
+    div.form-header h1{
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    div.form-header p{
+        margin-bottom: 3px;
+        font-size: 10px;
+    }
+
+    div.proceed-button{
+        width: 60%;
+        
     }
 }
 
@@ -10,6 +26,16 @@
         width:60%;
     
     }
+
+   
+
+   
+
+    div.form-header span{
+        font-size: 10px;
+    }
+
+    
 }
 
 @media screen and (max-width: 425px){
@@ -19,7 +45,6 @@
     }
 
     
-
     p.error-success-msg{
         font-size: 14px;
     }

@@ -1,0 +1,61 @@
+
+
+@media screen and (max-width: 768px){
+
+    .banner{
+    
+    
+        padding: 50px 0;
+        margin: 50px 1% 0 1%;
+        border-radius: 5px;
+    }
+    .banner h1{
+        font-size: 15px;
+        padding: 20px 40px;
+        /* margin: 40px 0; */
+    }
+
+    .banner .info1{
+        font-size: 15px;
+        width: 90%;
+        
+    }
+    .banner .info2{
+        
+        font-size: 13px;
+    }
+
+
+    .all-wallets{
+        grid-template-columns: repeat(2, 50%);
+        
+    }
+    .box{
+        width: 90%;
+        justify-content: center;
+        padding: 40px 30px;
+    }
+    .box span{
+        font-size: 10px;
+    }
+
+    .box p{
+        font-size: 13px;
+        padding: 10px 10px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 320px){
+    
+    .all-wallets{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .box span{
+        font-size: 15px;
+    }
+    
+}

@@ -1,6 +1,6 @@
 section.popup{
     position: fixed;
-    background: #c5ccd8b5;
+    background: #101112b5;
     /* height: 100%; */
     top: 0;
     right: 0;
@@ -13,11 +13,14 @@ section.popup{
 
 section.popup>div{
     background: #ffffff;
-    height: auto;
+    height: 70%;
     width: 50%;
     border-radius: 15px;
     color:black;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -29,8 +32,8 @@ span svg{
 }
 
 div.form-header{
-    display: flex;
-    align-items: center
+    /* display: flex; */
+    text-align: center;
 
 }
 div.form-header img{
@@ -40,11 +43,24 @@ div.form-header img{
     
 }
 
+div.form-header h1{
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 2.125rem;
+    line-height: 1.5rem;
+    color: #424d81
+}
+
 div.form-header p{
-    font-weight: 500;
+    font-weight: bold;
+    margin-bottom: 20px;
     font-size: 1.125rem;
     line-height: 1.5rem;
-    color: rgba(26,32,44,var(--text-opacity));
+    color: #424d81
+}
+
+div.form-header span{
+    color: #424d81;
 }
 
 p.error-success-msg{
@@ -115,14 +131,18 @@ form h6 i{
 }
 
 div.proceed-button{
-    background:#3182ce;
-    border-radius: 6px;
+    width: 30%;
+    display: flex;
+    /* align-self: center; */
+    background:#424d81;
+    border-radius: 50px;
+    border: 10px solid #7488ef;
     flex-direction: row;
     align-items: center;
-    /* justify-items: center; */
+    justify-items: center;
     justify-content: center;
-    padding: 10px;
-    margin-top: 13px;
+    padding: 20px;
+    margin: 13px auto;
     color:white;
     text-transform:uppercase;
 }

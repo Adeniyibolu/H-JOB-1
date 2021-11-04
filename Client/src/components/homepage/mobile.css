@@ -1,33 +1,138 @@
-@media screen and (max-width: 425px){
-    div.grid{
-       
-        grid-template-columns: repeat(1, 1fr);
-       
+
+
+
+@media screen and (max-width: 768px){
+    div.homepage{
+        /* display: flex; */
+        /* flex-direction: column; */
+        width: 100%;
+        /* align-items: center; */
+        /* justify-content: center; */
     }
-    section.homepage .text{
-       
-        margin: 15px 30px;
+    
+    header img{
+        height: 50px;
     }
 
-    section.homepage .text p{
-        color: #8f9bb3;
-        line-height: 1.3em;
-        opacity: 1;
+    div.left p{
+        font-size: 13px;
+    }
+
+    div.right i{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    div.about{
+      
+        height: 200px;
+        margin-top:30px;
+        margin-bottom:30px;
+     
+    }
+    
+    div.about h1{
+        font-size: 20px;
+    }
+    div.about span p{
+        font-size:14px;
+    }
+
+    div.list .title span{
+        font-size: 20px;
+        
+    }
+
+    div.list .title h1{
+        font-size: 20px;
+        
+    }
+    div.list .info{
+        font-size: 15px;
+        font-weight: 300;
+        
+    }
+
+    div.faqs .title{
         font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    div.faqs{
+        
+        padding-bottom: 50px;
+    }
+    div.questions-and-answers{
+        padding:0 50px
+    }
+    div.questions-and-answers .head p{
+        font-size: .8rem;
+    }
+
+    div.questions-and-answers .head i{
+        font-size: 1rem;
+    }
+    div.questions-and-answers p.answer{
+        font-size: 13px;
+    }
+
+    div.contact-us{
+        
+        flex-direction: column;
+        
+    }
+
+    div.left h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    div.left p{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    div.right i{
+        font-size: 30px;
+    }
+
+    div.bottom{
+        height: 100px;
+     
+    }
+    div.bottom p{
+        font-size: 18px;
+    }
+
+    div.bottom i{
+        font-size: 18px;
+        padding: 10px;
+        bottom: 30px;
     }
 }
 
 @media screen and (max-width: 320px){
-    
-    section.homepage .text{
-       
-        margin: 10px 30px;
+    div.about h1{
+        font-size: 18px;
+    }
+    div.about span p{
+        font-size:15px;
+        padding:20px 30px;
     }
 
-    section.homepage .text p{
-        color: #8f9bb3;
-        line-height: 1.3em;
-        opacity: 1;
-        font-size: 15px;
+    div.list .info{
+        font-size: 13px;
+        font-weight: 300;
+        
+    }
+
+    div.right i{
+        font-size: 20px;
+    }
+
+    div.bottom p{
+        font-size: 13px;
     }
 }

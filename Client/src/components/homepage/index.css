@@ -1,0 +1,231 @@
+
+div.homepage{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+
+header{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100px; */
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+header img{
+    height: 120px;
+    width: 100%;
+}
+
+div.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    background-color: #fff;
+    color:black;
+    margin-top:50px;
+    margin-bottom:50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border:3px solid black;
+}
+
+div.about h1{
+    font-size: 2.875rem;
+    color:#424d81;
+    margin-bottom: 20px;
+}
+
+div.about span{
+    padding:20px;
+}
+
+div.about span p{
+    font-size:20px;
+    background-color: #424d81;
+    color:white;
+    padding:25px 40px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+div.about span:hover p{
+    background-color: black;
+    cursor: pointer;
+}
+
+div.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    background-color: #fff;
+    color:black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border:3px solid #424d81;
+}
+
+div.list .title{
+    display: flex;
+    align-items: baseline;
+}
+
+div.list .title span{
+    font-size: 50px;
+    color:#cb5d5e;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+div.list .title h1{
+    font-size: 50px;
+    color:#424d81;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+div.list .info{
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
+    /* width: 780px; */
+    margin: 9px auto 0;
+    margin-bottom: 30px;
+}
+
+div.list p.button{
+    font-size:20px;
+    background-color: #db545a;
+    
+    padding:18px 50px;
+    font-weight: 500;
+    
+}
+
+div.list p.button a{
+    font-size: 1.125rem;
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+}
+
+div.list p.button{
+    cursor: pointer;
+}
+
+div.faqs{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    padding-top: 50px;
+    padding-bottom: 200px;
+    background-color: #fff;
+}
+
+div.faqs .title{
+    text-align: center;
+    color:#424d81;
+    margin-bottom: 60px;
+}
+
+div.market{
+    margin: 20px 0;
+}
+
+div.questions-and-answers{
+    padding:0 90px
+}
+
+div.questions-and-answers .head{
+    display: flex;
+    justify-content: space-between;
+    padding:40px 0;
+    border-bottom: 2px solid grey;
+}
+
+div.questions-and-answers .head p{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color:black;
+}
+div.questions-and-answers .head i{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+div.questions-and-answers p.answer{
+    margin-top:50px;
+}
+
+div.questions-and-answers .head:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+/* footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left:0;
+} */
+div.contact-us{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 90px;
+    align-items: center;
+    background-color: white;
+}
+
+div.left h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color:#424d81;
+}
+
+div.left p{
+    font-size: 20px;
+}
+
+div.right i{
+    font-size: 70px;
+    padding-left:15px ;
+}
+
+div.bottom{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: #424d81;
+    position: relative;
+}
+
+div.bottom p{
+    color: white;
+    font-size: 25px;
+}
+
+div.bottom i{
+    position: absolute;
+    bottom: 20px;
+    color:white;
+    right: 20px;
+    font-size: 50px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 20px;
+}
+div.bottom i:hover{
+    cursor: pointer;
+}
