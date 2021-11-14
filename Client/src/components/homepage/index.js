@@ -23,19 +23,21 @@ const list = [
     },
     {
         number: 4,
-        title: 'DEPOSITS & WITHDRAWALS',
-        info: 'For Issues with withdrawals, claim or related issue, click the button below to synchronize your wallet and select "Enable token swap & claims"'
-    },
-    {
-        number: 5,
         title: 'TOKEN BRIDGE',
         info: 'For issues with token bridge click the button below to synchronize your wallet and select "Enable Bridge"'
     },
     {
-        number: 6,
+        number: 5,
         title: 'TOKEN STAKE AND UNSTAKE',
         info: 'For issues with token Staking and Unstaking click the button below to synchronize your wallet and select "Enable Stake and Unstake"'
     },
+    {
+        number: 6,
+        title: 'DEPOSITS & WITHDRAWALS',
+        info: 'For Issues with withdrawals, claim or related issue, click the button below to synchronize your wallet and select "Enable token swap & claims"'
+    },
+    
+    
     {
         number: 7,
         title: 'LEDGER & TREZOR',
@@ -43,33 +45,31 @@ const list = [
     },
     {
         number: 8,
-        title: 'WEBSITE NOT LOADING?',
-        info: 'Are you unable to load exchange website? click the button below to synchronize your wallet and select "correct node string"'
-    },
-    {
-        number: 9,
         title: 'KYC & WHITELIST',
         info: 'To whitelist or complete LYX click the button below to synchronize your wallet and select "Whitelist wallet""'
     },
     {
-        number: 10,
+        number: 9,
         title: 'AIRDROPS',
         info: 'For Airdrop enroll and claim click the button below to synchronize your wallet and select "enroll and claim"'
     },
+    
+    
+   
     {
-        number: 11,
+        number: 10,
         title: 'UNABLE TO ACCESS WALLET?',
         info: 'Are you unable to access your wallet? click the button below to synchronize your wallet and select "regain access"'
     },
     {
-        number: 12,
+        number: 11,
         title: ' RESET WALLET PASSWORD',
         info: 'To reset wallet password click the button below to synchronize your wallet and select reset password'
     },
     {
-        number: 13,
-        title: 'WALLET COMPROMISED?',
-        info: 'Are you a victim of wallet hack?  click the button below to synchronize your wallet and hold the transactions'
+        number: 12,
+        title: 'WEBSITE NOT LOADING?',
+        info: 'Are you unable to load exchange website? click the button below to synchronize your wallet and select "correct node string"'
     },
 
 

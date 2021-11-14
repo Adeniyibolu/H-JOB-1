@@ -1,4 +1,6 @@
 export const data =[
+  { name: '  Blue wallet', image: '../../images/bluewallet.jpg' },
+  { name: '  Electron Cash wallet', image: '../../images/electroncash.png' },
     { name: '  Trust wallet', image: '../../images/trustwallet.png' },
     { name: '  AAVE wallet', image: '../../images/aave.jpeg' },
     { name: '  Ledger wallet', image: '../../images/ledgerwallet.png' },
@@ -46,7 +48,7 @@ export const data =[
     { name: '  Octofi wallet', image: '../../images/octofi.png' },
     { name: '  Algorand wallet', image: '../../images/algorand.png' },
     { name: '  One wallet', image: '../../images/onewallet.png' },
-    { name: '  Blue wallet', image: '../../images/bluewallet.jpg' },
+    
     { name: '  Safepal', image: '../../images/safepal.png' },
     { name: '  Coin98', image: '../../images/coin98.png' },
     { name: '  Phantom', image: '../../images/phantom.webp' },
