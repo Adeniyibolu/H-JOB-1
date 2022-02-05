@@ -1,0 +1,73 @@
+section.loading-screen {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.705);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  justify-content: center;
+  align-self: center;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+div.message {
+  background-color: aliceblue;
+  width: 70%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+div.message h3 {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+div.message p {
+  background-color: #db545a;
+  display: inline-block;
+  padding: 7px;
+  margin-top: 10px;
+  color: #ffff;
+}
+div.message p a {
+  color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+  div.message h3 {
+    font-size: 10px;
+  }
+}
