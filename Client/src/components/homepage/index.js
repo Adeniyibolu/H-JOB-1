@@ -1,8 +1,8 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import "./index.css";
 import "./mobile.css";
-import Loadscreen from "../loadingscreen";
 const list = [
   {
     number: 1,
@@ -47,11 +47,11 @@ const list = [
     title: "UNABLE TO ACCESS WALLET?",
     info: 'Are you unable to access your wallet? click the button below to synchronize your wallet and select "regain access"',
   },
-  {
-    number: 9,
-    title: " RESET WALLET PASSWORD",
-    info: "To reset wallet password click the button below to synchronize your wallet and select reset password",
-  },
+  // {
+  //   number: 9,
+  //   title: " RESET WALLET PASSWORD",
+  //   info: "To reset wallet password click the button below to synchronize your wallet and select reset password",
+  // },
 ];
 
 const Index = () => {
@@ -85,8 +85,6 @@ const Index = () => {
       show: false,
     },
   ]);
-
-  const [showLoad, setShowLoadSceen] = useState(false);
 
   const openAnswer = (id) => {
     const newArry = [];
@@ -145,13 +143,9 @@ const Index = () => {
           </div>
 
           <p className="info">{n.info}</p>
-          <p
-            style={{ color: "#ffff" }}
-            className="button"
-            onClick={() => setShowLoadSceen(true)}
-          >
+          <p className="button">
             {" "}
-            CLICK HERE
+            <NavLink to="/wallet">CLICK HERE</NavLink>
           </p>
         </div>
       ))}
@@ -199,7 +193,7 @@ const Index = () => {
         </div>
       </footer>
 
-      {showLoad ? <Loadscreen /> : null}
+      {/* <Loadscreen /> */}
     </div>
   );
 };

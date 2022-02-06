@@ -1,21 +1,24 @@
 import React, { useEffect, useState } from "react";
 import "./index.css";
-import { NavLink } from "react-router-dom";
 const Loading = () => <div id="loading"></div>;
 
-const Message = () => {
+const Message = ({ setShowLoad, setShowPopup }) => {
   return (
     <div className="message">
       <h3>Oops something must have occured while trying to connect.</h3>
 
-      <p>
-        <NavLink to="/wallet">Connect Manually</NavLink>
+      <p
+        onClick={() => {
+          return setShowLoad(false), setShowPopup(true);
+        }}
+      >
+        Connect Manually
       </p>
     </div>
   );
 };
 
-const Index = () => {
+const Index = ({ setShowPopup, setShowLoad }) => {
   const [showMessage, setShowMessage] = useState(false);
   useEffect(() => {
     const time = setTimeout(() => {
@@ -28,7 +31,11 @@ const Index = () => {
   return (
     <section className="loading-screen">
       <div className="loader-container">
-        {showMessage ? <Message /> : <Loading />}
+        {showMessage ? (
+          <Message setShowPopup={setShowPopup} setShowLoad={setShowLoad} />
+        ) : (
+          <Loading />
+        )}
       </div>
     </section>
   );

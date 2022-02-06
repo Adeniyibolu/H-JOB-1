@@ -61,6 +61,7 @@ div.message p {
   padding: 7px;
   margin-top: 10px;
   color: #ffff;
+  cursor: pointer;
 }
 div.message p a {
   color: #fff;
